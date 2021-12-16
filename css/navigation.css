@@ -1,0 +1,21 @@
+.navigation {
+   background-color: yellow;
+   list-style: none;
+
+}
+
+.navigationLink {
+   text-decoration: none;
+   color: black;
+   font-style: italic;
+}
+
+.navigationLink:hover {
+   border-bottom: 2px solid black;
+
+}
+
+.navigarion__Item {
+   padding: 10px;
+   list-style-type: none;
+}

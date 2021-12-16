@@ -1,0 +1,36 @@
+html {
+   box-sizing: border-box;
+}
+
+*, ::after, ::before {
+   box-sizing: inherit;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+
+
+.image {
+   margin-bottom: 20px;
+}
+
+.descripion {
+   padding: 20px;
+   margin-bottom: 30px;
+   line-height: 1.5;
+}
+
+.header {
+   color: crimson;
+}
+
+.woman {
+   color: rgb(87, 16, 43);
+}
+
+.darkTheme {
+   background: rgb(65, 59, 59);
+   color: rgb(238, 238, 145);
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Moja pierwsza strona</title>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <link href="css/style.css" rel="stylesheet">
+   <link href="css/table.css" rel="stylesheet">
+   <link href="css/navigation.css" rel="stylesheet">
+   <link href="css/ranking.css" rel="stylesheet">
+   <link href="css/footer.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap"
+      rel="stylesheet">
+   <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+   <p>
+      <button class="themeButton"><span class="dark">Ciemny</span> motyw</button>
+   </p>
+   <nav class="navigation">
+      <ul>
+         <li class="navigarion__Item">
+            <a class="navigationLink" href="#description">O mnie</a>
+         </li>
+         <li class="navigarion__Item">
+            <a class="navigationLink" href="#myFavoriteSongs">Moje ulubione utwory</a>
+         </li>
+         <li class="navigarion__Item">
+            <a class="navigationLink" href="#rankingOfSongs">Ranking Utworów</a>
+         </li>
+      </ul>
+   </nav>
+   <header>
+      <h1 class="header">Oto ja :)<span class="lastName"></span></h1>
+      <p> <button class="button">pokaż imię i nazwisko</button></p>
+      <img class="image" width="200" src="/obrazki/ja.jpeg" alt="Monika Lenartowicz">
+   </header>
+
+   <main>
+      <section id="description" class="descripion">
+         <h2 class="subHeader">Technik ekonomista</h2>
+         <p> <span class="woman">Kobieta</span> do zadań specjalnych, <br>
+            <strong>Podejmująca wyzwania,</strong><br>
+            Niezwykle <em>zmotywowana</em> do ciągłego
+            rozwoju i wzrostu umiejętności.
+         </p>
+
+      </section>
+      <section id="myFavoriteSongs" class="myFavoritesSongs">
+         <table class="table">
+            <caption class="tableCaption">Moje ulubione utwory</caption>
+            <tr class="tableRow">
+               <th class="tableCell  tableCell__head" scope="col">Tytuł</th>
+               <th class="tableCell tableCell__head" scope="col">Wykonawca</th>
+               <th class="tableCell tableCell__head" scope="col">Album</th>
+               <th class="tableCell  tableCell__head" scope="col">Rok wydania</th>
+            </tr>
+            <tr class="tableRow">
+               <th class="tableCell tableCell__head">Tell me</th>
+               <td class="tableCell">Johnny Jewel</td>
+               <td class="tableCell">The Lost River</td>
+               <td class="tableCell">2015</td>
+            </tr>
+            <tr class=" tableRow">
+               <th class="tableCell tableCell__head">Strange Effect</th>
+               <td class="tableCell">Unloved</td>
+               <td class="tableCell">Single</td>
+               <td class="tableCell">2020</td>
+            </tr>
+            <tr class="tableRow">
+               <th class="tableCell tableCell__head">Norwegian Mountains</th>
+               <td class="tableCell">Oystein Sevag</td>
+               <td class="tableCell">Global House</td>
+               <td class="tableCell">1995</td>
+            </tr>
+            <tr class="tableRow">
+               <th class="tableCell tableCell__head">K.</th>
+               <td class="tableCell" colspan="2">Cigarettes After Sex</td>
+               <td class="tableCell" rowspan="2">2017</td>
+            </tr>
+            <tr class="tableRow">
+               <th class="tableCell tableCell__head">Sunsetz</th>
+               <td class="tableCell" colspan="2">Cigarettes After Sex</td>
+            </tr>
+         </table>
+      </section>
+      <section id="rankingOfSongs" class="rankingOfSongs">
+         <h2 class="rankingOfSongs__header">Mój Ranking Utworów w 2021 roku</h2>
+         <ol>
+            <li class="rankingOfSongs__item">Tell me - Johnny Jewel</li>
+            <li class="rankingOfSongs__item">K. - Cigarettes After Sex</li>
+            <li class="rankingOfSongs__item">Norwegian Mountains - Oystein Sevag</li>
+            <li class="rankingOfSongs__item">The Opening - Ane Brun & Fleshquartet</li>
+         </ol>
+      </section>
+   </main>
+   <footer class="footer">copyright by Monika Lenartowicz</footer>
+</body>
+
+</html>
