@@ -1,8 +1,7 @@
 console.log("cześć!");
 
-let button = document.querySelector(".button");
+let button = document.querySelector(".js-lastName");
 let lastName = document.querySelector(".lastName");
-console.log(lastName);
 
 button.addEventListener("click", () => {
    if (lastName.innerText === ("")) {
@@ -10,7 +9,7 @@ button.addEventListener("click", () => {
    }
 });
 
-let themeButton = document.querySelector(".themeButton");
+let themeButton = document.querySelector(".js-themeButton");
 let darkTheme = document.querySelector(".darkTheme");
 let body = document.querySelector(".body");
 let dark = document.querySelector(".dark");
