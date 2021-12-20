@@ -1,0 +1,25 @@
+.section {
+   text-align: center;
+}
+
+.section__header {
+   color: crimson;
+}
+
+.button {
+   font-size: 16px;
+   padding: 10px;
+   border-radius: 8px;
+   border: none;
+   background-color: #9dbbd5d4;
+}
+
+.button:hover {
+   background-color: #d8f0fae3;
+}
+
+.section__image {
+   margin-bottom: 20px;
+   border-radius: 50%;
+   box-shadow: 3px 3px 5px rgba(103, 102, 102, 0.598);
+}

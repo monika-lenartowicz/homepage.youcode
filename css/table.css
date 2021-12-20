@@ -27,3 +27,7 @@
    background-color: #82aed5d4;
    font-weight: 700;
 }
+
+.myFavoritesSongs {
+   overflow-x: auto;
+}

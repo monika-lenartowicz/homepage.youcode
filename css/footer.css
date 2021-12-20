@@ -1,4 +1,6 @@
 .footer{
    margin-bottom: 30px;
-   text-align: right;
+   text-align: center;
+   background-color: #5cb1fc;
+   padding: 30px;
 }
